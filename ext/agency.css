@@ -263,6 +263,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
 }
 
 header {
@@ -888,31 +889,7 @@ body {
 	color: orange;
 }
 
-.text-justified {
-    text-align: justify;
-}
-
-.nmsc-images {
-  margin: auto 7.5%;
-}
-
-.nmsc-images .portfolio-caption {
-  margin-top: 15px;
-  text-align: center;
-}
-
 .nmsc-information {
   margin-top: 5%;
   text-align: center;
 }
-
-.nwrc-information {
-    margin-top: 0;
-    text-align: center;
-  }
-
-.nwrc-description {
-    margin-top: 50px;  
-}
-
-  
