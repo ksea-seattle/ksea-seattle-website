@@ -263,6 +263,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
 }
 
 header {
@@ -906,6 +907,33 @@ body {
   text-align: center;
 }
 
+.nwrc-navbar {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    border-color: transparent;
+    z-index: 1; 
+    background-color: #222;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.nwrc-navbar .navbar-nav > a {
+    color: pink
+}
+
+.nwrc-navbar .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #627ca1;
+}
+
+.nwrc-navbar .navbar-nav>.active>a:hover,
+.nwrc-navbar .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503;
+}
+
 .nwrc-information {
     margin-top: 0;
     text-align: center;
@@ -915,4 +943,59 @@ body {
     margin-top: 50px;  
 }
 
+#nwrc-sponsors .row {
+    margin-left: 100px; 
+    margin-right: 100px; 
+}
+
+#nwrc-sponsors .row div {
+    margin-top: 50px; 
+}
+
+#nwrc-about {
+    margin: auto 25%; 
+}
+
+#nwrc-about .location,
+#nwrc-about .schedule {
+    text-align: center; 
+    margin: 2ch; 
+}
+
+#nwrc-about .description>h3 {
+    margin: 4ch auto; 
+}
+
+.table-center {
+    border-collapse: collapse;
+    margin: 3% auto 5%;
+    width: 50%;
+}
   
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-size: 14pt; 
+}
+
+.thead-dark {
+    background-color: #32383e;
+    color: white;
+}
+
+#nwrc-contact {
+    display: block; 
+    background-color: #222;
+}
+
+#nwrc-contact {
+    color: white;
+}
+
+#nwrc-contact .contact-people {
+    margin-top: 5%; 
+}
+
+.row-title {
+    margin-bottom: 10ch; 
+}
