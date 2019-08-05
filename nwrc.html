@@ -368,7 +368,10 @@
     <!-- Grid column -->
     <div class="col-md-8 col-12 mt-5">
       <h1>Contact</h1>
-      <p style="line-height: 1.7rem">NWRC committee members you can contact for questions or concerns below.</p>
+      <p style="line-height: 1.7rem">
+        Have questions? Click the contact button below to email our 
+        committe members and we'll get back to you as soon as we can.
+      </p>
     </div>
     <!-- Grid column -->
 
@@ -380,41 +383,8 @@
     <div class="row  d-flex justify-content-center pt-5 mb-3 contact-people">
 
       <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-          <a href="mailto:chungsam@cityu.edu">
-              <strong>Sam Chung, NWRC Chair:</strong>
-              <br>chungsam@cityu.edu
-            </a>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-          <a href="mailto:wjyoon@uw.edu">
-              <strong>Woon Jong Yoon, NWRC Co-Chair:</strong>
-              <br>
-              wjyoon@uw.edu
-            </a>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-          <a href="mailto:smjung@post.harvard.edu">
-              <strong>Sun Min Jung, NWRC Executive Committee:</strong> 
-              <br>
-              smjung@post.harvard.edu
-            </a>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <a href="mailto:Terry.kim2@boeing.com">
-            <strong>Terry Kim, NWRC YG lead:</strong>
-            <br>
-            Terry.kim2@boeing.com
-          </a>
+      <div class="contact-button">
+        <a href="mailto:Terry.kim2@boeing.com" class="btn btn-outline-primary btn-lg active" role="button" aria-pressed="true">CONTACT</a>
       </div>
       <!-- Grid column -->
 
@@ -446,7 +416,7 @@
       <script>
       $(document).ready(function(){
         // Add smooth scrolling to all links
-        $("a").on('click', function(event) {
+        $("a.page-scroll").on('click', function(event) {
 
           // Make sure this.hash has a value before overriding default behavior
           if (this.hash !== "") {
