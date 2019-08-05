@@ -1,1 +1,3 @@
-# KSEA-Seattle-Website-
+# KSEA-Seattle-Website
+
+# Website for KSEA Seattle 
