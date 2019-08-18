@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
 .navbar.navbar-1 .navbar-toggler-icon {
   background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
@@ -34,7 +34,7 @@
   }
 
   .navbar {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Lexend Deca", sans-serif; 
     background: #222
   }
 
@@ -50,13 +50,17 @@
     transition: 0.3s;
   }
 
+  .navbar-brand {
+    font-family: "Lexend Deca", sans-serif; 
+  }
+
   .nwrc-information {
     margin-top: 0;
     text-align: center;
   }
 
   .navbar .nav-link {
-    font-size: 18px; 
+    font-size: 14px; 
   }
 
 .home-inner {
@@ -83,6 +87,7 @@
 }
 
 .caption-center h1 {
+  font-family: "Lexend Deca", sans-serif; 
   font-size: 3rem; 
   /* text-shadow: 2px 2px 10px #f01ad3; */
 }
@@ -102,14 +107,37 @@ section {
   text-align: center; 
 }
 
-section h2 {
-  margin-bottom: 5%; 
+.section-title h2 {
+  margin-bottom: 1%; 
+}
+
+.section-title {
+  margin-bottom: 4%; 
 }
 
 #nwrc-about p {
   text-align: start; 
   margin-left: 12%; 
   margin-right: 12%; 
+}
+
+#nwrc-about .about-headers {
+  margin-bottom: 2.5%; 
+}
+
+#nwrc-committee .row .col>h5 {
+  margin: 40px auto; 
+}
+
+#nwrc-committee .row {
+  margin-top: 5%; 
+}
+
+.section-title hr {
+  border-top: solid 2px #bdbdbd;
+  width: 30%; 
+  opacity: 0.75;
+  height: 0.25px; 
 }
 
 footer {
@@ -131,13 +159,9 @@ footer a:hover {
 }
 
 footer hr {
-  border: solid 1px #cacaca;
+  border-top: solid 1px #ffffff;
   width: 80%; 
   height: 0.5px;
-}
-
-footer ul li {
-  margin: 5% auto; 
 }
 
 .contact-people .col-md-2 {
@@ -150,24 +174,22 @@ footer ul li {
 }
 
 .sponsor-images img {
-  width: 400px; 
+  width: 300px; 
   margin: auto; 
 }
 
 #nwrc-sponsors .sponsor-images .row {
   text-align: center; 
-  margin: 10% auto; 
+  margin: 5% auto; 
 }
 
 .sponsor-item {
   margin: auto; 
 }
 
-#nwrc-sponsors hr {
-  border: solid 1px #bdbdbd;
-  width: 75%; 
-  opacity: 0.5;
-  height: 0.25px; 
+.social-icon {
+  width: 50%; 
+  margin: auto; 
 }
 
 @media(max-width:768px) {
@@ -186,14 +208,17 @@ footer ul li {
   }
 
   .caption-center h5 {
-    text-align: start; 
+    text-align: center; 
     font-size: 0.8rem; 
   }
 
   section h2 {
-    text-align: start; 
     font-size: 1.5rem; 
-    margin-bottom: 10%; 
+    margin-bottom: 4%; 
+  }
+
+  .section-title {
+    margin-bottom: 8%; 
   }
 
   section {
@@ -247,5 +272,9 @@ footer ul li {
 
   #nwrc-about p {
     margin: auto; 
+  }
+
+  .section-title hr {
+    width: 75%; 
   }
 }
