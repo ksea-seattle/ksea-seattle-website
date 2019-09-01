@@ -35,7 +35,7 @@
 
   .navbar {
     font-family: "Lexend Deca", sans-serif; 
-    background: #222
+    background: #222;
   }
 
   .navbar .navbar-nav .nav-link,
@@ -60,7 +60,7 @@
   }
 
   .navbar .nav-link {
-    font-size: 14px; 
+    font-size: 16px; 
   }
 
 .home-inner {
