@@ -98,6 +98,7 @@ button.navbar-toggler {
   border: solid 6px #FFFFFF; 
   padding: 0.25em; 
   font-size: 5rem; 
+  text-align: center;
 }
 
 /* Place text in the middle of the image */
