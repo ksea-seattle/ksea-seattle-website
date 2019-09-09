@@ -27,11 +27,10 @@
   .navbar.navbar-9 .navbar-toggler-icon {
   background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8');
   }
-
-body {
-  position: absolute; 
+  
+html, body {
+  overflow-x: hidden; 
 }
-
 button.navbar-toggler {
   border: none; 
   outline: none; 
@@ -152,7 +151,8 @@ section {
 
 #wrc-fields,
 #wrc-registration,
-#wrc-events {
+#wrc-events,
+#wrc-chapters {
   background: linear-gradient(to bottom right, rgba(4, 119, 191, 0.6), rgba(0, 192, 134, 0.8) ), url(../img/backgrounds/Large-Triangles.svg);
   /* background by SVGBackgrounds.com */
   background-size: cover; 
@@ -163,9 +163,12 @@ section {
   color: #FFFFFF;
 }
 
+#wrc-chapters .list-group {
+  color: black; 
+}
+
 #wrc-program,
-#wrc-about,
-#wrc-chapters {
+#wrc-about {
   background-color: #FFFFFF; 
 }
 
@@ -188,12 +191,17 @@ section {
   margin-bottom: 2.5%; 
 }
 
-#wrc-committee .row .col>h5 {
-  margin: 40px auto; 
+#wrc-committees .row .col>h5 {
+  margin: 3% auto; 
 }
 
-#wrc-committee .row {
+#wrc-committees .row {
   margin-top: 5%; 
+}
+
+#wrc-committees .row-title,
+.section-title {
+  margin: 0; 
 }
 
 #wrc-events .row > .col-md-6 {
@@ -270,11 +278,23 @@ footer hr {
   margin: auto; 
 }
 
-#wrc-events div.row.d-flex > .col-sm-4 > div.card {
-  margin: auto; 
+#wrc-events .carousel-item {
+  -webkit-mask-image:-webkit-linear-gradient(linear, left top, left bottom, (rgba(0,0,0,1)), (rgba(0,0,0,0)));
+  mask-image: linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,0.5))
+}
+
+.carousel-caption {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)); 
 }
 
 @media(min-width:769px) and (max-width:1280px) {
+
+  section {
+    padding-left: 0;
+    padding-right: 0; 
+    margin: 0; 
+  }
+
   .title {
     text-align: center;
     width: 100%;
@@ -309,7 +329,7 @@ footer hr {
   }
   
   .title h1 {
-    font-size: 2rem; 
+    font-size: 1.5rem; 
   }
 
   .title h5, .title p {
@@ -346,7 +366,11 @@ footer hr {
   }
 
   section {
-    padding: 20% auto; 
+    padding: 20% 0; 
+  }
+
+  .container-fluid {
+    padding: auto 0; 
   }
 
   section .row {
