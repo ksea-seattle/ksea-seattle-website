@@ -7,7 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    position: absolute;
+    position: relative;
 }
 
 .text-muted {
@@ -278,7 +278,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    position: relative; 
+    position: relative;
     display: table;
     width: 100%; 
     height: 95vh; 
@@ -303,7 +303,7 @@ header {
     font-family: "Lexend Deca", sans-serif; 
     border: solid 6px #FFFFFF; 
     padding: 0.25rem; 
-    font-size: 3rem; 
+    font-size: 8rem; 
 }
 
 header .intro-text {
@@ -326,6 +326,16 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+
+@media(max-width: 768px) {
+    .title h1 {
+        font-size: 3rem; 
+    }
+
+    .title h3 {
+        font-size: 1.5rem; 
+    }
 }
 
 @media(min-width:768px) {
@@ -607,6 +617,7 @@ section h3.section-subheading {
         padding: 0 30px 20px 20px;
         text-align: left;
     }
+    
 }
 
 @media(min-width:992px) {
@@ -919,4 +930,9 @@ body {
 .nmsc-information {
   margin-top: 5%;
   text-align: center;
+}
+
+.nmsc-information #nmsc_korean,
+.nmsc-information #nmsc_english {
+    text-align: left;
 }
