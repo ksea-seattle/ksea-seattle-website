@@ -146,17 +146,11 @@ section {
   margin-bottom: 4%; 
 }
 
-#wrc-abstract .row,
-#wrc-abstract .row .col {
-  margin: 2% auto; 
-}
-
 #wrc-about { 
   color: #222;
 }
 
 #wrc-committees, 
-#wrc-abstract,
 #wrc-transportation {
   background-color: #124673; 
   color: #FFFFFF; 
