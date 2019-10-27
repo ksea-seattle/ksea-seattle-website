@@ -146,24 +146,18 @@ section {
   margin-bottom: 4%; 
 }
 
-#wrc-abstract .row,
-#wrc-abstract .row .col {
-  margin: 2% auto; 
-}
-
 #wrc-about { 
   color: #222;
 }
 
 #wrc-committees, 
-#wrc-abstract,
 #wrc-transportation {
   background-color: #124673; 
   color: #FFFFFF; 
 }
 
 #wrc-fields,
-#wrc-registration,
+#wrc-speakers,
 #wrc-events,
 #wrc-chapters {
   background: linear-gradient(to bottom right, rgba(4, 119, 191, 0.6), rgba(0, 192, 134, 0.8) ), url(../img/backgrounds/Large-Triangles.svg);
@@ -176,6 +170,18 @@ section {
   color: #FFFFFF;
 }
 
+#wrc-transportation .row .col-md-6 {
+  margin-top: 5%;
+}
+
+#wrc-speakers h3 {
+  font-style: italic;
+}
+
+#wrc-speakers .row .col-md-6 {
+  text-align: center;
+}
+
 #wrc-chapters .list-group {
   color: black; 
 }
@@ -185,7 +191,7 @@ section {
   background-color: #FFFFFF; 
 }
 
-#wrc-registration hr {
+#wrc-speakers hr {
   border-top-color: #FFFFFF; 
 }
 
@@ -221,9 +227,14 @@ section {
   margin: 5% auto; 
 }
 
-#wrc-fields .img-text-pair {
+#wrc-fields .img-text-pair,
+#wrc-speakers .img-text-pair {
   margin: 5% auto; 
   text-align: left;
+}
+
+#wrc-speakers .col-md-6 h2{
+  margin-top: 15%;
 }
 
 .section-title hr {
@@ -414,6 +425,20 @@ footer hr {
 
   .contact-person h5 {
     font-size: 0.8rem; 
+  }
+
+  #wrc-speakers .img-text-pair h2, 
+  #wrc-speakers .img-text-pair h3 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  #wrc-speakers .row .col-md-6 {
+    margin-top: 2%;
+  }
+
+  #wrc-speakers .row .col-md-6 img {
+    width: 100%;
   }
 
   #wrc-contact {
