@@ -152,6 +152,7 @@ section {
 
 #wrc-welcome p {
   text-align: left;
+  margin: auto;
 }
 
 #wrc-welcome img {
