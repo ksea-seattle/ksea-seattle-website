@@ -301,9 +301,13 @@ header {
 .title h1 {
     margin-bottom: 5%;
     font-family: "Lexend Deca", sans-serif; 
-    border: solid 6px #FFFFFF; 
     padding: 0.25rem; 
     font-size: 8rem; 
+}
+
+.location-date > p,
+.location-date > h5 {
+    font-size: 3rem;
 }
 
 header .intro-text {
@@ -330,11 +334,16 @@ header .intro-text .intro-heading {
 
 @media(max-width: 768px) {
     .title h1 {
-        font-size: 3rem; 
+        font-size: 5rem; 
     }
 
     .title h3 {
         font-size: 1.5rem; 
+    }
+
+    .location-date > p,
+    .location-date > h5 {
+        font-size: 1.75rem;
     }
 }
 
