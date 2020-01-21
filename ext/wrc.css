@@ -150,6 +150,24 @@ section {
   color: #222;
 }
 
+#wrc-welcome p {
+  text-align: left;
+  margin: auto;
+}
+
+#wrc-welcome img {
+  width: 250px;
+  height: 250px;
+}
+
+#wrc-welcome .row {
+  margin: 2.5% auto;
+}
+
+#wrc-welcome .col-md-4 img {
+  margin: 5% auto; 
+}
+
 #wrc-committees, 
 #wrc-transportation {
   background-color: #124673; 
@@ -182,6 +200,10 @@ section {
   text-align: center;
 }
 
+#wrc-speakers img {
+  width: 60%;
+}
+
 #wrc-chapters .list-group {
   color: black; 
 }
@@ -189,6 +211,10 @@ section {
 #wrc-program,
 #wrc-about {
   background-color: #FFFFFF; 
+}
+
+#wrc-program {
+  text-align: left;
 }
 
 #wrc-speakers hr {
