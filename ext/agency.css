@@ -73,7 +73,7 @@ h6 {
     background-color: #222;
 }
 
-.btn-primary {
+.btn-primary-2 {
     border-color: #627ca1;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -82,42 +82,42 @@ h6 {
     background-color: #627ca1;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+.btn-primary-2:hover,
+.btn-primary-2:focus,
+.btn-primary-2:active,
+.btn-primary-2.active,
+.open .dropdown-toggle.btn-primary-2 {
     border-color: #f6bf01;
     color: #fff;
     background-color: #fec503;
 }
 
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+.btn-primary-2:active,
+.btn-primary-2.active,
+.open .dropdown-toggle.btn-primary-2 {
     background-image: none;
 }
 
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
+.btn-primary-2.disabled,
+.btn-primary-2[disabled],
+fieldset[disabled] .btn-primary-2,
+.btn-primary-2.disabled:hover,
+.btn-primary-2[disabled]:hover,
+fieldset[disabled] .btn-primary-2:hover,
+.btn-primary-2.disabled:focus,
+.btn-primary-2[disabled]:focus,
+fieldset[disabled] .btn-primary-2:focus,
+.btn-primary-2.disabled:active,
+.btn-primary-2[disabled]:active,
+fieldset[disabled] .btn-primary-2:active,
+.btn-primary-2.disabled.active,
+.btn-primary-2[disabled].active,
+fieldset[disabled] .btn-primary-2.active {
     border-color: #627ca1;
     background-color: #627ca1;
 }
 
-.btn-primary .badge {
+.btn-primary-2 .badge {
     color: #627ca1;
     background-color: #fff;
 }
@@ -284,11 +284,6 @@ header {
     height: 95vh; 
 }
 
-
-.title .row .col-md-6 {
-    margin: auto; 
-}
-
 .title {
     display: table-cell;
     text-align: center;
@@ -299,6 +294,7 @@ header {
 }
 
 .title h1 {
+    margin-top: 10%;
     margin-bottom: 5%;
     font-family: "Lexend Deca", sans-serif; 
     padding: 0.25rem; 
@@ -332,8 +328,15 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+.button-row,
+.button-row>.col-md-6{
+    margin: 2.5% auto;
+}
+
 @media(max-width: 768px) {
     .title h1 {
+        margin-top: 20%;
+        margin-bottom: 10%;
         font-size: 5rem; 
     }
 
@@ -394,6 +397,7 @@ section h3.section-subheading {
     section {
         padding: 150px 0;
     }
+
 }
 
 .service-heading {
