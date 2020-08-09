@@ -12,7 +12,7 @@ $(document).ready(function(){
 	});
 
 	$('#emailprez').click(function() {
-		window.location = "mailto:smjung@post.harvard.edu";
+		window.location = "mailto:ksea.yg.seattle@gmail.com";
 	});
 
 	$.fn.gotoAnchor = function(anchor) {
